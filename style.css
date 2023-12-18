@@ -87,37 +87,95 @@
 
     
 }
+/* fine esercizio 6 */
+
+/* inizio esercizio 7 */
+
 .ex-7-img:hover{
     filter: contrast(50%);
 
     transition-duration: 1s;
 
 }
+/* fine esercizio 7 */
+
+
+/* inizio esercizio 8 */
+
 .ex-8-img:hover{
     filter: brightness(40%);
     filter: grayscale(30%);
 
     border-radius: 20px;
 }
-
-
-
-/* fine esercizio 6 */
-
-
-
+/* fine esercizio 8 */
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/* inizio esercizio 9 */
+.ex-9-img:hover{
+    filter: contrast(40%) brightness(60%);
+
+    width: 600px;
+
+    border-radius: 20px;
+}
+
+/* fine esercizio 9 */
+
 .ex-10-icon {
     font-size: 60px;
+
+    transform: rotate(360deg);
 }
+
+/* inizio esercizio 10 */
+
+    
+
+.ex-10-icon {
+    animation: cerchio 1s infinite linear;
+    
+}
+
+@keyframes cerchio {
+    0% {
+        transform: rotate(2turn);
+    }
+}
+/* fine esercizio 10 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+/* inzio esercizio 11 */
+.ex-11-icon:hover{
+    animation: cerchio2 2s linear
+}
+
+    @keyframes cerchio2 {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+/* fine esercizio 11 */
+    
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -147,3 +205,10 @@
     width: 60px;
     height: 20px;
 }
+
+
+
+
+
+
+
