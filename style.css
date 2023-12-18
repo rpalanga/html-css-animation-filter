@@ -207,6 +207,46 @@
 }
 
 
+.ex-12-top-white{
+    animation: bordo 2s infinite linear ;
+}
+@keyframes bordo {
+    0% {
+        left: -10px;
+        bottom: 10%;
+    }
+
+    50% {
+        left:10px;
+        bottom: 20%;
+    }
+    100% {
+        left:-10px;
+        bottom:10%;
+    }
+    
+}
+.ex-12-bottom-white {
+    animation: bordo2 2s infinite linear;
+}
+
+@keyframes bordo2 {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    50% {
+        right: -20%;
+        bottom: -10px;
+        
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    
+}
 
 
 
