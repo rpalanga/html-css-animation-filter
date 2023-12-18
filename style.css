@@ -248,6 +248,34 @@
     
 }
 
+.ex-13-top-white{
+    animation: bordo3 4s infinite linear;
+}
+
+@keyframes bordo3 {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    25% {
+        : -10px;
+        right: 50%;
+    }
+    /* 50% {
+        top:150px;
+        left:50%
+    }
+    75%{
+        top:200px;
+        left:100%
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    } */
+        
+}
+
 
 
 
