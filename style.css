@@ -60,9 +60,53 @@
     height: 60px;
     background: red;
 }
+/* inizio esercizio 5 */
+.ex-5-square:hover{
+    width: 200px;
+    height: 200px;
+
+    transition-duration: 1s;
+}
+
+.ex-5-square:active {
+    width: 20px;
+    height: 20px;
+
+    transition-duration: 1s;
+
+}
+/* fine esercizio 5 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
+/* inizio esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+
+    
+}
+.ex-7-img:hover{
+    filter: contrast(50%);
+
+    transition-duration: 1s;
+
+}
+.ex-8-img:hover{
+    filter: brightness(40%);
+    filter: grayscale(30%);
+
+    border-radius: 20px;
+}
+
+
+
+/* fine esercizio 6 */
+
+
+
+
 
 .ex-9-img {
     margin: 50px 100px;
